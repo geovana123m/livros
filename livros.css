@@ -1,25 +1,11 @@
-header{
-    background-color: rgb(69, 79, 90);
-    padding: 20px 0;
-} 
-.caixa{
-    position: relative;
-    width: 1500px;
-    margin: 0 auto;
+body{
+    font-size: 25px; 
+    background-color: rgb(56, 68, 78);
 }
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-} 
-nav{
-    position: absolute;
-    top: 130px;
-    right: 0;
+
+.itens{
+    font-size: italic;
 }
-nav a{
-    text-transform: uppercase;
-    color: #000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
+.produtos li{
+    display: inline-block;
 }
