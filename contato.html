@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+    <link rel="stylesheet" href="livros.css" 
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="livros.png"></h1>
+
+            <nav>
+                <ul">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="produtos.html">produtos</a></li>
+                    <li><a href="contato.html">contato</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="ctt">
+        <form>
+            <label for="nomeesobrenome">Nome e sobrenome </label>
+            <input type="text" id="nomeesobrenome" class="padrao" required>
+
+            <label for="Email">Email</label>
+            <input type="email" id="Email" class="padrao" required placeholder="geovana.lindner@escola.pr.gov.br">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="padrao" required placeholder="(xx) xxxxx-xxxx">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="30" rows="10" id="mensagem"></textarea>
+
+         <fieldset>
+            <legend>Como prefere o nossso contato?</legend>
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+            <label for="radio-telefone"><input type="radio" name="contato" "telefone" id="radio-telefone">Telefone</label>
+            
+            
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="WhatsApp" id="radio-whatsapp">WhatsApp</label>
+         </fieldset>
+
+        <fieldset>
+            <legend>Qual horario prefere novas postagens</legend>
+            <select>
+                <option>Manhâ</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </fieldset>
+
+             <label class="checkbox"><input type="checkbox" checked>Gostaria de receber informações sobre novos livros?</label>
+
+            <input type="submit" value="enviar formulário" class="enviar">
+
+        </form>
+
+    </main>
+    <footer>
+        <p class="rodape">&copy; Copyright livrinhos.geo 2023</p>
+    </footer>
+    
+</body>
+</html>
